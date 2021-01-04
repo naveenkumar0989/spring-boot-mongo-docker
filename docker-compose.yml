@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   springapp:
-    image: dockerhandson/spring-boot-mongo:BUILD_NUMBER
+    image: naveenkumar0989/spring-boot-mongo:BUILD_NUMBER
     environment:
     - MONGO_DB_HOSTNAME=mongo
     - MONGO_DB_USERNAME=devdb
